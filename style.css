@@ -11,7 +11,7 @@
 }
 
 body {
-    background-color: #000000;
+    background-color: #393d40 !important;
     margin: 0;
     padding: 0;
     overflow-x: hidden;
@@ -29,7 +29,7 @@ body {
 
 .navigation {
     height: 120px;
-    background-color: rgba(255, 255, 255, 0.9);
+    background-color: rgba(241, 237, 234, 0.9);
     overflow-y: hidden;
     position: fixed;
     left: 0;
@@ -59,7 +59,7 @@ li a {
 }
 
 #logo {
-    color: #FCA311;
+    color: #d69764;
     font-weight: 700;
     font-family: 'Amatic SC', cursive;
     font-size: 50px;
@@ -107,6 +107,7 @@ li a {
 }
 
 .scrolldown {
+    background-color: #ee7500 !important;
     width: 20%;
     height: 3em;
 }
@@ -138,14 +139,15 @@ a {
 }
 
 .btn {
-    background-color: #14213D;
+    background-color: #ee7500;
     color: #FFF;
     font-family: 'Amatic SC', cursive;
     padding: 14px;
 }
 
 .products {
-    background-color: #eeeff1;
+    background-color: #636363;
+    color: rgba(255, 255, 255, 0.9);
     box-sizing: border-box;
     width: 90%;
     margin: 20px auto;
@@ -153,11 +155,19 @@ a {
     text-align: center;
 }
 
+.products p {
+    color: rgba(255, 255, 255, 0.7);
+}
+
 .product {
     display: inline-block;
     margin: 0px 2% 80px 2%;
     text-align: center;
     width: 45%;
+}
+
+.blue {
+    font-size: 3em;
 }
 
 .product a {
@@ -176,6 +186,8 @@ a {
 
 .product img {
     width: 100%;
+    border: solid 2px rgba(255, 255, 255, 0.5);
+    border-radius: 5px;
 }
 
 #music {
@@ -184,8 +196,7 @@ a {
 }
 
 footer {
-    font-family: "Dancing Script", cursive;
-    color: #fff;
+    color: rgb(241, 237, 234);
     background-color: #eeeff1;
     padding-top: 3%;
     padding-bottom: 3%;
@@ -203,4 +214,15 @@ footer {
 #cont abbr[title] {
     border-bottom: none;
     !important;
+}
+
+.bottom {
+    color: black;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 0.3em;
+}
+
+.fa-heart {
+    color: crimson;
 }
