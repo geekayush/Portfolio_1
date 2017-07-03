@@ -30,12 +30,12 @@ body {
     position: relative;
     top: -55px;
     width: 100%;
-    overflow: hidden;
 }
 
 .navigation {
     height: auto;
     min-height: 120px;
+    max-width: 100%;
     background-color: rgba(241, 237, 234, 0.9);
     position: fixed;
     left: 0;
@@ -43,7 +43,6 @@ body {
     text-align: center;
     width: 100%;
     z-index: 10000;
-    overflow: hidden;
 }
 
 ul {
