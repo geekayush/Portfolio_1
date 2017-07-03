@@ -247,3 +247,12 @@ footer {
 .fa-heart {
     color: crimson;
 }
+
+@media only screen and (max-width:520px) {
+    .product p {
+        font-size: 1.3em;
+    }
+    .products h3 {
+        font-size: 2.1em;
+    }
+}
