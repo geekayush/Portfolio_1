@@ -285,6 +285,22 @@ footer {
     color: crimson;
 }
 
+.blink {
+    animation: beat 1s linear infinite;
+}
+
+@keyframes beat {
+    0% {
+        transform: scale(1.1);
+    }
+    50% {
+        transform: scale(0.8);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
 @media only screen and (max-width:1000px) {
     .product p {
         font-size: 1.3em;
