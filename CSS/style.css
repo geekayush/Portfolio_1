@@ -1,322 +1,350 @@
 ::-webkit-scrollbar {
-    width: 5px;
+	width: 5px;
 }
 
 ::-webkit-scrollbar-track {
-    background-color: #393d40;
+	background-color: #393d40;
 }
 
 ::-webkit-scrollbar-thumb {
-    background-color: #636363;
+	background-color: #636363;
 }
 
 ::selection {
-    background: #d69764;
+	background: #d69764;
 }
 
 @keyframes enlarge {
-    from,
-    to {
-        transform: scale(1)
-    }
-    50% {
-        transform: scale(1.05)
-    }
+	from,
+	to {
+		transform: scale(1)
+	}
+	50% {
+		transform: scale(1.05)
+	}
 }
 
 body {
-    background-color: #393d40 !important;
-    margin: 0;
-    padding: 0;
-    text-align: center;
-    overflow-x: hidden;
-    width: 100%;
+	background-color: #393d40 !important;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	overflow-x: hidden;
+	width: 100%;
 }
 
 #cover {
-    background: url("../media/cover.gif") no-repeat right top;
-    background-size: cover;
-    background-attachment: fixed;
-    height: 800px;
-    position: relative;
-    top: -55px;
-    width: 100%;
+	background: url("../media/cover.gif") no-repeat right top;
+	background-size: cover;
+	background-attachment: fixed;
+	height: 800px;
+	position: relative;
+	top: -55px;
+	width: 100%;
 }
 
 .navigation {
-    height: auto;
-    min-height: 120px;
-    max-width: 100%;
-    background-color: rgba(241, 237, 234, 0.9);
-    position: fixed;
-    left: 0;
-    top: 0;
-    text-align: center;
-    width: 100%;
-    z-index: 10000;
-    overflow: hidden;
+	height: auto;
+	min-height: 120px;
+	max-width: 100%;
+	background-color: rgba(241, 237, 234, 0.9);
+	position: fixed;
+	left: 0;
+	top: 0;
+	text-align: center;
+	width: 100%;
+	z-index: 10000;
+	overflow: hidden;
 }
 
 ul {
-    padding: 0;
+	padding: 0;
 }
 
 li {
-    color: #14213D;
-    font-family: 'Abel', sans-serif;
-    font-size: 25px;
-    font-weight: 300;
-    text-transform: uppercase;
-    list-style: none;
-    position: relative;
-    right: 21px;
+	color: #14213D;
+	font-family: 'Abel', sans-serif;
+	font-size: 25px;
+	font-weight: 300;
+	text-transform: uppercase;
+	list-style: none;
+	position: relative;
+	right: 21px;
 }
 
 li a {
-    text-decoration: none !important;
-    color: #000;
+	text-decoration: none !important;
+	color: #000;
 }
 
 .href {
-    margin: 45px 20px 20px 20px;
-    text-align: center;
+	margin: 45px 20px 20px 20px;
+	text-align: center;
 }
 
 #logo {
-    color: #d69764;
-    font-weight: 700;
-    font-family: 'Amatic SC', cursive;
-    font-size: 50px;
-    padding: 0px 50px;
-    margin-top: 25px;
-    text-align: center;
+	color: #d69764;
+	font-weight: 700;
+	font-family: 'Amatic SC', cursive;
+	font-size: 50px;
+	padding: 0px 50px;
+	margin-top: 25px;
+	text-align: center;
 }
 
 .cover-content {
-    color: #fff;
-    box-sizing: border-box;
-    margin: 0 auto;
-    position: relative;
-    text-align: center;
-    top: 280px;
-    width: 70%;
+	color: #fff;
+	box-sizing: border-box;
+	margin: 0 auto;
+	position: relative;
+	text-align: center;
+	top: 280px;
+	width: 70%;
 }
 
 .cover-content a {
-    text-decoration: none;
-    max-height: 2em !important;
-    font-size: 2em;
+	text-decoration: none;
+	max-height: 2em !important;
+	font-size: 2em;
 }
 
 .cover-content a:hover {
-    text-decoration: none;
-    cursor: text;
-    color: #fff;
+	text-decoration: none;
+	cursor: text;
+	color: #fff;
 }
 
 .cover-content h1 {
-    color: #FFF;
-    font-family: 'Amatic SC', cursive;
-    font-size: 72px;
-    line-height: 60px;
-    padding: 20px 10px;
-    text-align: center;
-    font-weight: 400;
+	color: #FFF;
+	font-family: 'Amatic SC', cursive;
+	font-size: 72px;
+	line-height: 60px;
+	padding: 20px 10px;
+	text-align: center;
+	font-weight: 400;
 }
 
 .cover-content h2 {
-    color: #fff;
-    font-family: 'Raleway', sans-serif;
-    font-size: 33px;
-    font-weight: 500;
-    text-align: center;
+	color: #fff;
+	font-family: 'Raleway', sans-serif;
+	font-size: 33px;
+	font-weight: 500;
+	text-align: center;
 }
 
 .typewriter {
-    overflow: hidden;
-    border-right: 0.15em solid white;
-    white-space: nowrap;
-    animation: typing 3.5s steps(50, end), blink 0.5s step-end infinite;
-    margin: 20px auto;
+	overflow: hidden;
+	border-right: 0.15em solid white;
+	white-space: nowrap;
+	animation: typing 3.5s steps(50, end), blink 0.5s step-end infinite;
+	margin: 20px auto;
+}
+
+.scroll-downs {
+	margin: auto;
+	width: 34px;
+	height: 55px;
+}
+
+.mousey {
+	width: 2px;
+	padding: 10px 12px;
+	height: 30px;
+	border: 2px solid #ee7500;
+	border-radius: 25px;
+	opacity: 0.75;
+	box-sizing: content-box;
+}
+
+.scroller {
+	width: 4px;
+	height: 10px;
+	border-radius: 25%;
+	background-color: #ee7500;
+	animation-name: scroll;
+	animation-duration: 2.2s;
+	animation-timing-function: cubic-bezier(.15, .41, .69, .94);
+	animation-iteration-count: infinite;
+}
+
+@keyframes scroll {
+	0% {
+		opacity: 0;
+	}
+	10% {
+		transform: translateY(0);
+		opacity: 1;
+	}
+	100% {
+		transform: translateY(15px);
+		opacity: 0.2;
+	}
 }
 
 @keyframes typing {
-    from {
-        width: 0%
-    }
-    to {
-        width: 100%
-    }
+	from {
+		width: 0%;
+	}
+	to {
+		width: 100%;
+	}
 }
 
 @keyframes blink {
-    from,
-    to {
-        border-right-color: transparent
-    }
-    50% {
-        border-right-color: white
-    }
-}
-
-.scrolldown {
-    background-color: #ee7500 !important;
-    height: 3em;
-}
-
-.scrolldownbutton a:hover {
-    cursor: pointer;
-}
-
-.scrolldownbutton a:focus {
-    color: #fff;
+	from,
+	to {
+		border-right-color: transparent;
+	}
+	50% {
+		border-right-color: white;
+	}
 }
 
 h3 {
-    color: #14213D;
-    font-family: 'Abel', sans-serif;
-    font-size: 28px;
-    text-align: center;
-    text-transform: uppercase;
+	color: #14213D;
+	font-family: 'Abel', sans-serif;
+	font-size: 28px;
+	text-align: center;
+	text-transform: uppercase;
 }
 
 h4 {
-    color: #FCA311;
-    font-family: 'Abel', sans-serif;
-    font-size: 24px;
-    margin: 0px 0px 50px 0px;
+	color: #FCA311;
+	font-family: 'Abel', sans-serif;
+	font-size: 24px;
+	margin: 0px 0px 50px 0px;
 }
 
 p {
-    color: #333;
-    font-family: 'Raleway', sans-serif;
-    font-size: 16px;
-    font-weight: 300;
+	color: #333;
+	font-family: 'Raleway', sans-serif;
+	font-size: 16px;
+	font-weight: 300;
 }
 
 a {
-    text-decoration: none;
+	text-decoration: none;
 }
 
 .btn {
-    background-color: #ee7500;
-    color: #FFF;
-    font-family: 'Amatic SC', cursive;
-    padding: 14px;
-    transition: background-color 0.3s, color 0.3s;
+	background-color: #ee7500;
+	color: #FFF;
+	font-family: 'Amatic SC', cursive;
+	padding: 14px;
+	transition: background-color 0.3s, color 0.3s;
 }
 
 .btn:hover {
-    color: #ee7500;
-    background-color: rgba(255, 255, 255, 1);
+	color: #ee7500;
+	background-color: rgba(255, 255, 255, 1);
 }
 
 .products {
-    background-color: #636363;
-    color: rgba(255, 255, 255, 0.9);
-    box-sizing: border-box;
-    width: 90%;
-    margin: 20px auto;
-    padding: 20px 0px;
-    text-align: center;
-    overflow: hidden;
+	background-color: #636363;
+	color: rgba(255, 255, 255, 0.9);
+	box-sizing: border-box;
+	width: 90%;
+	margin: 20px auto;
+	padding: 20px 0px;
+	text-align: center;
+	overflow: hidden;
 }
 
 .products p {
-    color: rgba(255, 255, 255, 0.7);
+	color: rgba(255, 255, 255, 0.7);
 }
 
 .product {
-    text-align: center;
-    margin-bottom: 60px;
+	text-align: center;
+	margin-bottom: 60px;
 }
 
 .blue {
-    font-size: 3em;
+	font-size: 3em;
 }
 
 .product a {
-    font-size: 2em;
+	font-size: 2em;
 }
 
 .product a:hover {
-    text-decoration: none;
-    color: cadetblue;
-    color: #ee7500;
+	text-decoration: none;
+	color: cadetblue;
+	color: #ee7500;
 }
 
 .product a:focus {
-    text-decoration: none;
-    color: #fff;
+	text-decoration: none;
+	color: #fff;
 }
 
 .product img {
-    width: 100%;
-    border: solid 2px rgba(255, 255, 255, 0.5);
-    border-radius: 5px;
-    transition: box-shadow 0.3s;
+	width: 100%;
+	border: solid 2px rgba(255, 255, 255, 0.5);
+	border-radius: 5px;
+	transition: box-shadow 0.3s;
 }
 
 .product img:hover {
-    box-sizing: border-box;
-    border-radius: 5px;
-    box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.5);
-    animation: enlarge 2s;
+	box-sizing: border-box;
+	border-radius: 5px;
+	box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.5);
+	animation: enlarge 2s;
 }
 
 footer {
-    color: rgb(241, 237, 234);
-    background-color: #eeeff1;
-    padding-top: 3%;
-    padding-bottom: 3%;
-    margin: 0;
+	color: rgb(241, 237, 234);
+	background-color: #eeeff1;
+	padding-top: 3%;
+	padding-bottom: 3%;
+	margin: 0;
 }
 
 .fa {
-    color: black;
+	color: black;
 }
 
 .fa:hover {
-    color: cadetblue;
+	color: cadetblue;
 }
 
 #cont abbr[title] {
-    border-bottom: none;
-    !important;
+	border-bottom: none;
+	!important;
 }
 
 .bottom {
-    color: black;
-    text-align: center;
-    font-family: 'Raleway', sans-serif;
-    letter-spacing: 0.3em;
+	color: black;
+	text-align: center;
+	font-family: 'Raleway', sans-serif;
+	letter-spacing: 0.3em;
 }
 
 .fa-heart {
-    color: crimson;
+	color: crimson;
 }
 
 .blink {
-    animation: beat 1s linear infinite;
+	animation: beat 1s linear infinite;
 }
 
 @keyframes beat {
-    0% {
-        transform: scale(1.1);
-    }
-    50% {
-        transform: scale(0.8);
-    }
-    100% {
-        transform: scale(1);
-    }
+	0% {
+		transform: scale(1.1);
+	}
+	50% {
+		transform: scale(0.8);
+	}
+	100% {
+		transform: scale(1);
+	}
 }
 
 @media only screen and (max-width:1000px) {
-    .product p {
-        font-size: 1.3em;
-    }
-    .products h3 {
-        font-size: 2.1em;
-    }
+	.product p {
+		font-size: 1.3em;
+	}
+	.products h3 {
+		font-size: 2.1em;
+	}
 }
